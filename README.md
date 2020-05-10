@@ -25,7 +25,8 @@ decided to read the entire list. I figured it would be nice to read one
 of these every once in a while, so I made this package to return a
 random “thing” from the list.
 
-I was also inspired by my dear friend Katie Jolly’s R package,
+I was also inspired by my dear friend [Katie
+Jolly](https://twitter.com/katiejolly6)’s R package,
 [`{advicegiveR}`](https://github.com/katiejolly/advicegiveR). Katie
 introduced me to 99pi, and I am forever grateful.
 
