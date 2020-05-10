@@ -17,23 +17,21 @@ what_should_an_architect_know <- function(thing = sample(1:250, size = 1)){
   # browser()
   if(length(thing) == 1){
     if(!(thing%%1 == 0)){
-      stop("Error: thing must be an integer")
+      stop("Thing must be an integer")
     }
 
     if(!(thing >= 1 & thing <= 250)){
-      stop("Error: thing must be between 1 and 250")
+      stop("Thing must be between 1 and 250")
     }
   } else if(length(thing) > 1){
     if(!class(thing) == "integer"){
       if(!class(thing) == "numeric"){
-
-
-      stop("Error: thing must be a vector of integers")
+      stop("Thing must be a vector of integers")
       }
     }
 
-    if(!(any(thing) >= 1 & any(thing) <= 250)){
-      stop("Error: all things must be between 1 and 250")
+    if(any(thing < 1)  | any(thing > 250)){
+      stop("All things must be between 1 and 250")
     }
   }
 
