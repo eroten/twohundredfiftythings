@@ -2,7 +2,7 @@ Type: Package
 Package: twohundredfiftythings
 Title: An R Package for "Two Hundred Fifty Things an Architect
     Should Know" by Michael Sorkin
-Version: 0.1.0
+Version: 0.1.01
 Authors@R: 
     person(given = "Liz",
            family = "Roten",
@@ -25,4 +25,3 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Year: 2020
