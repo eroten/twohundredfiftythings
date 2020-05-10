@@ -3,21 +3,26 @@ Package: twohundredfiftythings
 Title: An R package for "Two Hundred Fifty Things an Architect
     Should Know" by Michael Sorkin
 Version: 0.1.0
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: 
+    person(given = "Liz",
+           family = "Roten",
+           role = c("cre", "aut", "cph"),
+           email = "roten.elizabeth@gmail.com")
+Description: A lightweight R package for accessing "Two
+    Hundred Fifty Things an Architect Should Know" by Michael Sorkin.
 License: MIT + file LICENSE
+URL: https://github.com/eroten/twohundredfiftythings
+BugReports: 
+    https://github.com/eroten/twohundredfiftythings/issues
 Depends: 
     R (>= 2.10)
+Imports: 
+    dplyr,
+    magrittr
 Suggests: 
     testthat
-Authors@R: c(person(given = "Liz", family = "Roten", role =
-    c("cre", "aut", "cph"), email = "roten.elizabeth@gmail.com"))
-Date@R: Sys.Date()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Year: 2020
-Imports: 
-    dplyr,
-    magrittr
