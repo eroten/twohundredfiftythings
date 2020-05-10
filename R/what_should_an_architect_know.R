@@ -38,7 +38,7 @@ what_should_an_architect_know <- function(thing = sample(1:250, size = 1)){
   thing_char <- as.character(thing)
 
   return_things <- twohundredfiftythings::things_an_architect_should_know %>%
-    dplyr::filter(as.character(.$n) %in% thing_char)
+    dplyr::filter(as.character(twohundredfiftythings::things_an_architect_should_know$n) %in% thing_char)
 
   return(return_things$thing)
 }
