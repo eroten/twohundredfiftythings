@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)![R-CMD-check](https://github.com/eroten/twohundredfiftythings/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
 `{twohundredfiftythings}` is a tiny R package that allows the user to
