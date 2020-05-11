@@ -1,15 +1,16 @@
 Type: Package
 Package: twohundredfiftythings
-Title: An R Package for "Two Hundred Fifty Things an Architect
-    Should Know" by Michael Sorkin
-Version: 0.1.01
+Title: Access "Two Hundred Fifty Things an Architect Should
+    Know" by Michael Sorkin
+Version: 0.1.1
 Authors@R: 
     person(given = "Liz",
            family = "Roten",
            role = c("cre", "aut", "cph"),
            email = "roten.elizabeth@gmail.com")
-Description: A lightweight R package for accessing "Two
-    Hundred Fifty Things an Architect Should Know" by Michael Sorkin.
+Description: Access "Two Hundred Fifty Things an Architect
+    Should Know" by Michael Sorkin as published in 2018. Each "Thing" can be
+    accessed randomly, or as a data table.
 License: MIT + file LICENSE
 URL: https://github.com/eroten/twohundredfiftythings
 BugReports: 
